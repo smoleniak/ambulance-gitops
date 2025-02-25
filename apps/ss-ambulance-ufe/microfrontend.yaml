@@ -5,4 +5,4 @@ metadata:
 spec:
   frontendClass: md-shell # default obsiahnutý v základe polyfea md-shell
   service: http://ss-ambulance-ufe.wac-hospital # referencia na službu odkiaľ sa má načítať modul
-  modulePath: build/ambulance-ufe.esm.js # cesta v rámci služby kde sa modul nachádza
+  modulePath: build/ambulance.esm.js # cesta v rámci služby kde sa modul nachádza
