@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: ss-ambulance-ufe-content
+spec:
+  microFrontend: ss-ambulance-ufe
+  element: ss-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?ss-ambulance-wl(/.*)?$"
