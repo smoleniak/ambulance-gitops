@@ -4,7 +4,10 @@ metadata:
   name: ss-disease-monitor-ufe-content
 spec:
   microFrontend: ss-disease-monitor-ufe
-  element: ss-disease-list
+  element: ss-disease-monitor-app
+  attributes:
+    - name: base-path
+      value: /ss-disease-monitor/
   displayRules:
     - allOf:
       - context-name: main-content
