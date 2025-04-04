@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ss-disease-monitor-ufe-deployment      # meno deployment-u od ktorého sa odvádza meno podu
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+        pod: ss-disease-monitor-ufe-label    # tento riadok je len označenie štítku
+                                    # key-value pair pod=ambualnce ufe
+                                    # určený pre výber podov s rovnakým štítkom
+  template:                    # šablóna pre vytvorenie replík podov
+    metadata:
+      labels:
+        pod: ss-disease-monitor-ufe-label    # štítky podu
+    spec:
+      containers:
+      - name: disease-monitor-ufe-container # meno kontaineru - v pod-e ich môže byť viac
+        image: xsmoleniak/disease-monitor
+        imagePullPolicy: Always
+
+        ports:
+        - name: http
+          containerPort: 8080       # port na ktorom počúva kontajner, pomenovaný ako `http`
+
+        resources:                  # určenie kvót pre využívané fyzické prostriedky
+                                    # je dôležité pre riadenie záťaže v rámci kubernetes
+                                    # klastra
+            requests:
+                memory: "32M"
+                cpu: "0.1"
+            limits:
+                memory: "320M"
+                cpu: "0.3"
+  

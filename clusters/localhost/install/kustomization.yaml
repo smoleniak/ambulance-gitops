@@ -9,5 +9,7 @@ labels:
 
 resources:
 - ../../../apps/ss-ambulance-ufe
+- ../../../apps/ss-disease-monitor-ufe
+
 components:
 - ../../../components/version-developers

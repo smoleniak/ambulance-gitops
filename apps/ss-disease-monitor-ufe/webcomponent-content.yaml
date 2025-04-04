@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: ss-disease-monitor-ufe-content
+spec:
+  microFrontend: ss-disease-monitor-ufe
+  element: ss-disease-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?ss-disease(/.*)?$"
