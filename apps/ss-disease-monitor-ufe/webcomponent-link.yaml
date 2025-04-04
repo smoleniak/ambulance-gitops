@@ -14,9 +14,9 @@ spec:
       value: |
         Spravuje a vizualizuje prípady chorôb v geografickom priestore
     - name: material-icon
-      value: home_health
+      value: pin_drop
     - name: href # presmerovanie po kliknutí na element polyfea-md-app
-      value: ./ss-disease-list
+      value: ./ss-disease-monitor
   priority: 10
   displayRules: # pravidlá, kde sa má element vložiť v obálke
     - anyOf:
