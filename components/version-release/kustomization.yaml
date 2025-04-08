@@ -6,4 +6,4 @@ images:
   newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
 - name: xsmoleniak/disease-monitor
   newName: xsmoleniak/disease-monitor
-  newTag: 1.0.0
+  newTag: 1.0.1
