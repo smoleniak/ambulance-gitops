@@ -9,7 +9,12 @@ labels:
 
 resources:
 - ../../../apps/ss-ambulance-ufe
+- ../../../apps/ss-ambulance-webapi
 - ../../../apps/ss-disease-monitor-ufe
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/smoleniak/ambulance-webapi//deployments/kustomize/components/mongodb
