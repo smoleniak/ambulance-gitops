@@ -9,11 +9,6 @@ labels:
     app.kubernetes.io/name: ss-ambulance-wl
   includeSelectors: true
   includeTemplates: true
-- pairs:
-    app.kubernetes.io/part-of: wac-hospital
-    app.kubernetes.io/name: ss-disease-monitor
-  includeSelectors: true
-  includeTemplates: true
 
 resources:
 - ../../../apps/ss-ambulance-ufe

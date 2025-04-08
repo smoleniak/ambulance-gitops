@@ -5,9 +5,6 @@ labels:
 - pairs:
     app.kubernetes.io/part-of: wac-hospital
     app.kubernetes.io/name: ss-ambulance-wl
-- pairs:
-    app.kubernetes.io/part-of: wac-hospital
-    app.kubernetes.io/name: ss-disease-monitor
 
 namespace: wac-hospital
 
