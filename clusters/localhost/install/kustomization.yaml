@@ -11,6 +11,7 @@ resources:
 - ../../../apps/ss-ambulance-ufe
 - ../../../apps/ss-ambulance-webapi
 - ../../../apps/ss-disease-monitor-ufe
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
