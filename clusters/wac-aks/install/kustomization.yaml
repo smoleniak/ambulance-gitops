@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/ss-ambulance-ufe
+- ../../../apps/ss-ambulance-webapi
 - ../../../apps/ss-disease-monitor-ufe
 
 components:

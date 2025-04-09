@@ -3,7 +3,10 @@ kind: Component
 images:
 - name: xsmoleniak/ambulance-ufe
   newName: xsmoleniak/ambulance-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.1.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: xsmoleniak/ambulance-wl-webapi
+  newName: xsmoleniak/ambulance-wl-webapi
+  newTag: 1.1.0
 - name: xsmoleniak/disease-monitor
   newName: xsmoleniak/disease-monitor
   newTag: 1.0.1
