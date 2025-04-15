@@ -19,7 +19,7 @@ resources:
 - disease-monitor.image-repository.yaml
 - disease-monitor.image-policy.yaml
 - image-update-automation.yaml
-- secrects.kustomization.yaml
+- secrets.kustomization.yaml
 
 patches:
   - target:
