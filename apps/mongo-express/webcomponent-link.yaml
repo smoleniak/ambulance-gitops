@@ -10,6 +10,8 @@ spec:
       value: Mongo Express
     - name: short-headline
       value: UI Access to local Mongo DB
+    - name: supporting-text
+      value: UI Access to local Mongo DB
     - name: material-icon
       value: database
     - name: href
