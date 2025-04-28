@@ -11,4 +11,4 @@ spec:
   displayRules:
     - allOf:
       - context-name: main-content
-      - path: "^(\\.?/)?ss-disease(/.*)?$"
+      - path: "^(\\.?/)?ss-disease(.*)?$"
