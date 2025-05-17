@@ -9,4 +9,4 @@ images:
   newTag: main.20250409.1038 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: xsmoleniak/disease-monitor
   newName: xsmoleniak/disease-monitor # {"$imagepolicy":  "wac-hospital:disease-monitor-ufe:name"}
-  newTag: main.20250512.1043 # {"$imagepolicy": "wac-hospital:disease-monitor-ufe:tag"}
+  newTag: main.20250517.1137 # {"$imagepolicy": "wac-hospital:disease-monitor-ufe:tag"}
