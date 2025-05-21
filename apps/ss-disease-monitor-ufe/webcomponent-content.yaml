@@ -8,6 +8,10 @@ spec:
   attributes:
     - name: base-path
       value: /ss-disease-monitor/
+    - name: region-id
+      value: svk
+    - name: api-base
+      value: http://localhost:5000/api
   displayRules:
     - allOf:
       - context-name: main-content
