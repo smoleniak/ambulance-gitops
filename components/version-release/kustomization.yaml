@@ -12,4 +12,4 @@ images:
   newTag: 1.0.3
 - name: xsmoleniak/disease-monitor-webapi
   newName: xsmoleniak/disease-monitor-webapi
-  newTag: 1.0.1
+  newTag: 1.0.2
