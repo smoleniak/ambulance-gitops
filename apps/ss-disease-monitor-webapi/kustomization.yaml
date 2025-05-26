@@ -3,3 +3,8 @@ kind: Kustomization
 
 resources:
 - 'https://github.com/smoleniak/disease-monitor-webapi//deployments/kustomize/install'
+- openapi-ui.service.yaml
+- http-route.yaml
+
+patches:
+- path: patches/disease-monitor-webapi.deployment.yaml

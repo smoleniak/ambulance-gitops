@@ -23,4 +23,4 @@ patches:
 components:
 - ../../../components/version-developers
 - https://github.com/smoleniak/ambulance-webapi//deployments/kustomize/components/mongodb
-# - https://github.com/smoleniak/disease-monitor-webapi//deployments/kustomize/components/mongodb
+- https://github.com/smoleniak/disease-monitor-webapi//deployments/kustomize/components/mongodb
