@@ -18,6 +18,8 @@ resources:
 - ambulance-webapi.image-policy.yaml
 - disease-monitor.image-repository.yaml
 - disease-monitor.image-policy.yaml
+- disease-monitor-webapi.image-repository.yaml
+- disease-monitor-webapi.image-policy.yaml
 - image-update-automation.yaml
 - secrets.kustomization.yaml
 

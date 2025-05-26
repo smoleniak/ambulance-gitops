@@ -11,13 +11,16 @@ resources:
 - ../../../apps/ss-ambulance-ufe
 - ../../../apps/ss-ambulance-webapi
 - ../../../apps/ss-disease-monitor-ufe
+- ../../../apps/ss-disease-monitor-webapi
 - ../../../apps/mongo-express
 - ../../../apps/http-echo
 
 patches:
 - path: patches/ambulance-webapi.service.yaml
+- path: patches/disease-monitor-webapi.service.yaml
 - path: patches/mongodb-auth.secret.yaml
 
 components:
 - ../../../components/version-developers
 - https://github.com/smoleniak/ambulance-webapi//deployments/kustomize/components/mongodb
+# - https://github.com/smoleniak/disease-monitor-webapi//deployments/kustomize/components/mongodb
