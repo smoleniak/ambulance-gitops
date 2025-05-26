@@ -14,6 +14,7 @@ spec:
     name: polyfea-controller
     namespace: polyfea
   interval: 120s
+  timeout: 5m0s
   path: clusters/localhost/prepare
   prune: true
   sourceRef:
