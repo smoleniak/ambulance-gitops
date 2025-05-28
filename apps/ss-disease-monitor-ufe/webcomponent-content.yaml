@@ -12,6 +12,8 @@ spec:
       value: svk
     - name: api-base
       value: /ss-disease-monitor-api
+    - name: image-path
+      value: /ss-disease-monitor/
   displayRules:
     - allOf:
       - context-name: main-content
