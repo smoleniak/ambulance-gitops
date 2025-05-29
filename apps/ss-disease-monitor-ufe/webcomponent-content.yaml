@@ -12,7 +12,7 @@ spec:
       value: svk
     - name: api-base
       value: /ss-disease-monitor-api
-    - name: image-path
+    - name: image-path  # temporary hack for loading static images from ufe container
       value: /fea/polyfea/proxy/wac-hospital/ss-disease-monitor-ufe/
   displayRules:
     - allOf:
